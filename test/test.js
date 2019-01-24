@@ -182,6 +182,7 @@ describe('datapay', function() {
           done()
         })
       })
+      /*
       it('pay.filter', function(done) {
         const options = {
           data: ["0x6d02", "hello world"],
@@ -225,6 +226,7 @@ describe('datapay', function() {
         })
         
       })
+      */
     })
     describe('attach coins to data', function() {
       it('paying tip to 1 user', function(done) {
